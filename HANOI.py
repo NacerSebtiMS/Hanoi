@@ -99,7 +99,7 @@ Il est possible de montrer que pour le neme déplacement, il faudra éxécuter l
     L1,L2,L3=Hanoi(n-1,L1,L2,L3,Record)# On exécute H(n-1)
     return(L1,L2,L3)    
 ##Programme Principal
-def Jefaistout(): #Fait office de programme principal
+def etapes(): #Fait office de programme principal
     Record=open("Enregistre Hanoi.txt",'w')
     n=int(input("Choisir le nombre de disques de la Tour d'Hanoï : "))
     L1,L2,L3=[],[],[]
@@ -128,4 +128,4 @@ def Jefaistout(): #Fait office de programme principal
 
 EXECUTE=True
 if EXECUTE:
-    Jefaistout()
+    etapes()
