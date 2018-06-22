@@ -105,7 +105,7 @@ def etapes(): #Fait office de programme principal
     L1,L2,L3=[],[],[]
     for i in range(n):
         L1=L1+[i+1]
-    print("Etape initiale : Tour n°1 :",L1,"Tour n°2 :",L2,"Tour n°3 :",L3)
+    print("Etape initiale :\nTour n°1 :",L1,"Tour n°2 :",L2,"Tour n°3 :",L3)
     L1,L2,L3 = Hanoi(n,L1,L2,L3,Record)
     Record.close()
     Record=open("Enregistre Hanoi.txt",'r')
